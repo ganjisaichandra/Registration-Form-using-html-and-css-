@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compitable" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.8" />
+    <!-- Here we are adding the external file of css  -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" method="post">
+        <h2>Registration</h2>
+        <div class="content">
+          <!-- This is for input box -->
+          <div class="input-box">
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              placeholder="Enter full name"
+              name="name"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="Usesrname">Username</label>
+            <input
+              type="text"
+              placeholder="Enter Username"
+              name="name"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              placeholder="Enter Your valid email address"
+              name="email"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="phonenumber">Phone Number</label>
+            <input
+              type="tel"
+              placeholder="Enter phone number"
+              name="phonenumber"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="name">Password</label>
+            <input
+              type="password"
+              placeholder="Enter new password"
+              name="password"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="Cpassword">Confirm password</label>
+            <input
+              type="password"
+              placeholder="Confirmpassword"
+              name="confirmpassword"
+              required
+            />
+          </div>
+          <!-- This is for Gender Category -->
+          <span class="gender-title">Gender</span>
+          <div class="gender-categroy">
+            <input type="radio" name="gender" id="Male" />
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="Female" />
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" id="Other" />
+            <label for="gender">Other</label>
+          </div>
+        </div>
+        <div class="alert">
+          <!-- This is for rules and regulations agreement -->
+          <p>
+            By Clicking Sign Up, you agree to our<a href="#">Terms,</a
+            ><a href="#">Privacy policy</a> and
+            <a href="#">cookies Policy</a> you may recieve SMS notifications
+            form us and can opt out any time.
+          </p>
+        </div>
+        <!-- This code is for  Submit button purpose -->
+        <div class="button-container">
+          <button type="submit">Register</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
